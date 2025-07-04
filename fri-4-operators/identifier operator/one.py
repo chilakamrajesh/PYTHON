@@ -6,4 +6,4 @@ print(a is not b)
 print(a is c)
 
 
-## here we just use is and not iss
+## here we just use is and not is
