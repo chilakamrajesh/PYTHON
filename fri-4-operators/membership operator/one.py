@@ -1,6 +1,6 @@
-enames =['RG','SG','PG']
-st_names=('Rahul','sonia')
-eis={101,102,103,104}
+enames =['RG','SG','PG']  #list
+st_names=('Rahul','sonia')  #touple
+eis={101,102,103,104}  #set
 byte_values=bytes([0,25,35,45,55])
 ba_values=bytearray([0,25,35,45,55])
 fz_values=frozenset({0,25,34,333})
@@ -26,6 +26,9 @@ print("Gandhi" in ename)
 # here we use in and not in 
 print(333 in fz_values)
 print(333 not in fz_values)
+
+
+#to verify element present in sequence or not
 
 
 
