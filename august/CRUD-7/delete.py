@@ -5,5 +5,5 @@ emp={
     'esal':45000.45,
     'email':'rg@ibm.com',
 }
-del("eid")
+del emp['eid']
 print(emp)
